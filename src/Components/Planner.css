@@ -1,0 +1,55 @@
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f4f4f9;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+  
+.row span {
+    font-size: 1.2rem;
+    color: brown;
+    font-weight: 900;
+}
+  
+.btngroup {
+    display: flex;
+    align-items: center;
+}
+  
+.btngroup button {
+    padding: 5px 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 0 5px;
+    transition: all 0.3s ease;
+}
+
+.btngroup .increment {
+    background-color: green;
+}
+
+.btngroup .increment:hover {
+    background-color: transparent;
+    border: 2px solid green;
+    color: green;
+    font-size: 1rem;
+}
+
+.btngroup .decrement {
+    background-color: red;
+}
+
+.btngroup .decrement:hover {
+    background-color: transparent;
+    border: 2px solid red;
+    color: red;
+    font-size: 1rem;
+}
